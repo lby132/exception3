@@ -25,4 +25,5 @@ public class ServletExController {
     public void error500(HttpServletResponse response) throws IOException {
         response.sendError(500);
     }
+
 }
